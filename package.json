@@ -1,0 +1,17 @@
+{
+  "name": "bun-crash-repro",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cidr-tools-wasm": "^0.0.13"
+  }
+}
